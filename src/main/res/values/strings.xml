@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Basic_Banking_App</string>
+    <string name="basic_banking_app">Basic Banking App</string>
+    <string name="view_all_customers">View All Customers</string>
+    <string name="kaushal_kumar_pandey">~Kaushal Kumar Pandey</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="kaushal">Kaushal</string>
+    <string name="textview7">TextView</string>
+    <string name="name">name :</string>
+    <string name="amount">amount :</string>
+    <string name="textview1">TextView</string>
+    <string name="transfer_money">Transfer Money</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">todo2</string>
+    <string name="todo3">todo3</string>
+    <string name="todo4">todo4</string>
+    <string name="todo5">todo5</string>
+    <string name="todo6">todo6</string>
+    <string name="todo7">todo7</string>
+    <string name="todo8">todo8</string>
+    <string name="todo9">todo9</string>
+    <string name="todo10">todo10</string>
+    <string name="todo11">todo11</string>
+    <string name="todo12">todo12</string>
+    <string name="todo13">todo13</string>
+    <string name="todo14">todo14</string>
+    <string name="todo15">todo15</string>
+</resources>
