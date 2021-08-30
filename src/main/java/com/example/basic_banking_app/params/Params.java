@@ -1,4 +1,4 @@
-package com.example.basic_banking_app.params;
+package com.example.basic_banking_application.params;
 
 public class Params {
 
