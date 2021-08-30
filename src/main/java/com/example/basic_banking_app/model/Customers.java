@@ -1,5 +1,4 @@
-package com.example.basic_banking_app.model;
-
+package com.example.basic_banking_application.model;
 import android.util.Log;
 
 public class Customers {
@@ -9,6 +8,15 @@ public class Customers {
     private String email;
     private int photo;
     public static double newmoney;
+    public static String sender;
+
+    public static String getSender() {
+        return sender;
+    }
+
+    public static void setSender(String sender) {
+        Customers.sender = sender;
+    }
 
     public Customers(int id, String name, String amount, int photo) {
         this.id = id;
