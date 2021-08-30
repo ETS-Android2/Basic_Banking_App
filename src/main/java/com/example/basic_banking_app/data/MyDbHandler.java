@@ -1,5 +1,4 @@
-package com.example.basic_banking_app.data;
-
+package com.example.basic_banking_application.data;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -7,10 +6,10 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.example.basic_banking_app.All_Costumers;
-import com.example.basic_banking_app.adapter.RecyclerViewAdapter1;
-import com.example.basic_banking_app.model.Customers;
-import com.example.basic_banking_app.params.Params;
+import com.example.basic_banking_application.All_Costumers;
+import com.example.basic_banking_application.adapter.RecyclerViewAdapter1;
+import com.example.basic_banking_application.model.Customers;
+import com.example.basic_banking_application.params.Params;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -103,7 +102,7 @@ public class MyDbHandler extends SQLiteOpenHelper {
 
     public void deleteCustomers(){
         SQLiteDatabase db = this.getWritableDatabase();
-    //    db.delete(Params.TABLE_NAME, Params.KEY_ID +"=?", new String[]{String.valueOf(customers.getId())});
+        //    db.delete(Params.TABLE_NAME, Params.KEY_ID +"=?", new String[]{String.valueOf(customers.getId())});
         db.delete(Params.TABLE_NAME,null,null);
         db.close();
     }
